@@ -16,5 +16,3 @@ FS = 15;
 figure, clf;
 subplot(1, 2, 1), imshow(Img, [0 1]), title('Original Image', "fontsize", FS);
 subplot(1, 2, 2), imshow(enhanced_Img, [0 1]), title('Contrast enhancement', "fontsize", FS);
-
-
